@@ -1,0 +1,40 @@
+:root {
+    --btn-color: hsl(71, 73%, 54%);
+    --section-color: hsl(179, 62%, 43%);
+    --section-color-light: hsla(179, 62%, 43%, 0.7);
+    --text-on-light: hsl(218, 22%, 67%);
+    --text-on-dark: hsl(204, 43%, 93%);
+}
+
+.btn {
+    background: var(--btn-color);
+}
+
+#call-to-action {
+    background: var(--section-color);
+    color: white;
+}
+
+#arguments {
+    background: var(--section-color-light);
+    color: white;
+}
+
+body {
+    font-family: "Karla", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+p,
+li {
+    font-size: 16px;
+}
+
+h2 {
+    font-weight: 700;
+    /* margin-bottom: 30px; */
+}
+
+.wrapper {
+    width: 80vw;
+    margin: 0 auto;
+}
