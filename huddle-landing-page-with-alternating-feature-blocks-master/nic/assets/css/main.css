@@ -1,3 +1,8 @@
+:root {
+  --btn-primary-color: hsl(322, 100%, 66%);
+  --btn-secondary-color: white;
+}
+
 /* Mobile */
 body {
   font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
