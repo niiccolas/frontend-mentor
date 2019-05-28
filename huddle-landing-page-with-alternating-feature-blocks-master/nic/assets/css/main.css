@@ -14,9 +14,37 @@ h1, h2 {
   font-weight: 600;
 }
 
+.btn {
+  height: 80px;
+  width: 400px;
+  border: 0;
+  border-radius: 40px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  background: var(--btn-primary-color);
+  color: white;
+  font-weight: 700;
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.btn-secondary {
+  background: var(--btn-secondary-color);
+  font-weight: 700;
+}
+
+.btn-large {
+  width: 480px;
+}
+
+.btn-small {
+  height: 50px;
+  width: 190px;
+}
+
 /* Desktop */
 @media only screen and (min-width: 420px) {
-  header {
-
-  }
 }
